@@ -1,0 +1,85 @@
+{
+    "lang": {
+        "404": {
+            "txt_subject": [
+                "Seite",
+                "Produkt"
+            ],
+            "txt_addition": "nicht gefunden :(",
+            "txt_link": "Zurück zur Startseite"
+        },
+        "wishlist": {
+            "txt_btn": "Niedrigster Preis",
+            "txt_empty_Table": "Leerer Merkzettel",
+            "txt_table_productname": "Bezeichnung",
+            "txt_table_descr": "Beschreibung",
+            "txt_table_categorie": "Kategorie",
+            "txt_table_minPrice": "Preis ab",
+            "txt_errormsg": "Ups da ist was schiefgelaufen :("
+        },
+        "categories": [
+            "Kategorie A",
+            "Kategorie B",
+            "Kategorie C",
+            "Kategorie D",
+            "Kategorie E"
+        ],
+        "txt_imprint": "Impressum",
+        "txt_wishlist": "Merkliste",
+        "txt_search_placeholder": "Suche...",
+        "articles": [
+            {
+                "headline": "Lorem",
+                "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam voluptas assumenda autem optio ipsa sit pariatur, illo ea? In asperiores magnam voluptas! Eos quidem dolor, atque repellendus maxime laboriosam voluptatum."
+            },
+            {
+                "headline": "Lorem",
+                "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam voluptas assumenda autem optio ipsa sit pariatur, illo ea? In asperiores magnam voluptas! Eos quidem dolor, atque repellendus maxime laboriosam voluptatum."
+            },
+            {
+                "headline": "Lorem",
+                "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam voluptas assumenda autem optio ipsa sit pariatur, illo ea? In asperiores magnam voluptas! Eos quidem dolor, atque repellendus maxime laboriosam voluptatum."
+            }
+        ],
+        "welcome": {
+            "txt_welcome_msg": "Willkommen"
+        },
+        "imprint": {
+            "txt_address": "Adresse",
+            "txt_contact": "Kontakt",
+            "txt_owner": "Inhaber",
+            "txt_mail": "E-Mail Adresse",
+            "txt_tel": "Telefon",
+            "txt_legalform": "Rechtsform",
+            "txt_identification": "Umsatzsteuer",
+            "txt_vat": "UID-Nr. gemäß",
+            "txt_vat_act": "UID-Nr.",
+            "txt_register_Entry": "Registereintrag",
+            "txt_liabilities": "Haftung",
+            "txt_copyright": "Copyright"
+        },
+        "overview": {
+            "txt_from": "für",
+            "txt_currency": "€",
+            "txt_filter": "Filter",
+            "txt_submit_filter": "Filter anwenden",
+            "txt_no_product_found": "Es wurde kein Produkt gefunden!",
+            "txt_filter_price-range": "Preisspanne"
+        },
+        "detail": {
+            "txt_top_deals": "Top Deals",
+            "txt_user_ratings": "Bewertungen",
+            "txt_user_ratings_filler": "sagt",
+            "txt_rating": "Produktmeinungen",
+            "txt_offer": "Angebote",
+            "txt_ratingname": "Deine Bewertung",
+            "txt_authorfield": "Autor",
+            "txt_description": "Was hältst du davon...",
+            "txt_deals": "Deals",
+            "txt_textboxppomp_author": "Autor",
+            "txt_textboxppomp_rating": "Bewertung",
+            "txt_create_rating_info": "Bewertung verfassen",
+            "txt_submit": "Absenden"
+        }
+    }
+}

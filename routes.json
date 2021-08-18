@@ -1,0 +1,98 @@
+[{
+  "url": "*",
+  "static": "*"
+},
+{
+  "url": "/",
+  "controller": {
+    "file": "index-controller",
+    "function": "redirect"
+  }
+},
+{
+  "url": "/404",
+  "controller": {
+    "file": "404-controller",
+    "function": "render404"
+  }
+},
+{
+  "url": "/api/fragment",
+  "controller": {
+    "file": "fragment-controller",
+    "function": "renderWishlistFragment"
+  }
+},
+{
+  "url": "/api/toggleWishlist",
+  "method": ["POST"],
+  "controller": {
+    "file": "fragment-controller",
+    "function": "toggleWishlist"
+  }
+},
+{
+  "url": "/api/waitFragment",
+  "controller": {
+    "file": "fragment-controller",
+    "function": "renderWaitFragment"
+  }
+},
+{
+  "url": "/api/heartFragment",
+  "controller": {
+    "file": "fragment-controller",
+    "function": "renderHeartFragment"
+  }
+},
+{
+  "url": "/:locale",
+  "controller": {
+    "file": "index-controller",
+    "function": "renderIndex"
+  }
+},
+{
+  "url": "/:locale/overview/",
+  "controller": {
+    "file": "overview-controller",
+    "function": "renderOverview"
+  }
+},
+{
+  "url": "/:locale/overview/:category_id",
+  "controller": {
+    "file": "overview-controller",
+    "function": "renderOverview"
+  }
+},
+{
+  "url": "/:locale/detail/:product_id",
+  "method": ["GET"],
+  "controller": {
+    "file": "detail-controller",
+    "function": "renderDetail"
+  }
+},
+{
+  "url": "/api/save",
+  "method": ["POST"],
+  "controller": {
+    "file": "detail-controller",
+    "function": "saveRating"
+  }
+},
+{
+  "url": "/:locale/imprint",
+  "controller": {
+    "file": "imprint-controller",
+    "function": "renderImprint"
+  }
+},
+{
+  "url": "/*",
+  "controller": {
+    "file": "404-controller",
+    "function": "redirectTo404"
+  }
+}]

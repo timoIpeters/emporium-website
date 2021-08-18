@@ -1,0 +1,58 @@
+---
+{
+  "ogUrl": "example.emporium.com",
+  "ogImg": "/images/emporium_og_logo.png"
+}
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  {{!-- Open Graph Protocol Implementation --}}
+  <meta property="og:title" content="{{ global.informations.name }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.ogUrl }}">
+  <meta property="og:image" content="{{ page.ogImg }}">
+  <meta property="og:site_name" content="{{ global.informations.name }}">
+  <meta property="og:description" content="{{ global.informations.slogan }}">
+
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="/public/styles/base.css">
+  <link rel="stylesheet" href="/public/styles/templates.css">
+  <link rel="stylesheet" href="/public/styles/{{ page.style }}">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet"> 
+
+  <script src="/public/scripts/theme.js" defer></script>
+  <script src="/public/scripts/cmd_prompt.js" defer></script>
+
+  {{#unless (isError page.title)}}
+  <script src="/public/scripts/global.js" defer></script>
+  {{/unless}}
+
+  {{#each page.scripts}}
+    <script src="/public/scripts/{{this}}" defer></script>
+  {{/each}}
+
+  <title>{{ page.title }}</title>
+</head>
+
+<body>
+  {{ include "../templates/cmd_prompt" }}
+  
+  {{ include "../templates/header" }}
+
+  {{#unless (isError page.title)}}
+  {{ include "../templates/navigation" }}
+  {{ include "../templates/wishlist" }}
+  {{/unless}}
+
+  {{ content }}
+
+  {{#unless (isError page.title)}}
+  {{ include "../templates/footer" }}
+  {{/unless}}
+</body>
+</html>

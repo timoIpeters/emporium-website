@@ -1,0 +1,29 @@
+<nav class="navigation">
+
+  <div class="navigation__top">
+    <div class="navigation__wishlist">
+      <svg class="navigation__wishlist--icon">
+        <use href="/public/images/symbols.svg#icon-heart"></use>
+      </svg>
+      <p> {{page.lang.txt_wishlist}} </p>
+    </div>
+
+    <form action="/{{request.path.locale}}/overview/" class="search">
+      <input type="text" name="search" id="search" class="search__input"
+        placeholder="{{page.lang.txt_search_placeholder}}" value="{{request.get.search}}">
+        {{#if request.get.minPrice}}
+        <input type="hidden" name="minPrice" value="{{request.get.minPrice}}">
+        {{/if}}
+        {{#if request.get.maxPrice}}
+        <input type="hidden" name="maxPrice" value="{{request.get.maxPrice}}">
+        {{/if}}
+    </form>
+  </div>
+
+  <ul class="navigation__categories">
+    {{#each global.categories}}
+    <li class="navigation__item navigation__link"><a href="/{{../request.path.locale}}/overview/{{@index}}">{{ this }}</a></li>
+    {{/each}}
+  </ul>
+
+</nav>

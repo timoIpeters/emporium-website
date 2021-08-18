@@ -1,0 +1,27 @@
+.start {
+  margin: 1rem 3rem;
+}
+
+.start__hero-img {
+  display: block;
+  margin: 2rem auto;
+  max-width: 100%;
+}
+
+.start__article--title {
+  margin-bottom: 1rem;
+}
+
+.start__article,
+.start__article--text {
+  margin-bottom: 2rem;
+}
+
+.start__article--text {
+  hyphens: auto;
+}
+
+/* horizontale Linie nur zwischen Artikeln */
+.start__article:not(:last-child) {
+  border-bottom: .2rem solid var(--color-accent-dark);
+}

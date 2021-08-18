@@ -1,0 +1,23 @@
+---
+{
+"title": "Willkommen",
+"template": "html",
+"style": "index.css",
+"imgPath": "/public/images/hero_img.jpg",
+"scripts": []
+}
+---
+<main class="content">
+  <section class="start">
+    <img src="{{ page.imgPath }}" alt="Hero image" class="start__hero-img">
+    <h2 class="page__title">{{page.lang.welcome.txt_welcome_msg}}</h2>
+
+    {{!-- Artikelliste --}}
+    {{#each page.lang.articles}}
+    <article class="start__article">
+      <h3 class="start__article--title">{{this.headline}}</h3>
+      <p class="start__article--text">{{this.text}}</p>
+    </article>
+    {{/each}}
+  </section>
+</main>

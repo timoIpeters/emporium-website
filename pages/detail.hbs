@@ -1,0 +1,120 @@
+---
+{
+"title": "Detail",
+"template": "html",
+"style": "detail.css",
+  "scripts": ["wishlist.js"]
+}
+---
+<main class="content detail">
+  <section class="profile">
+    <div class="profile__product">
+      <h2 class="profile__product--heading">
+        <span class="add-to-wishlist" data-id="{{page.product.id}}">
+          {{#if page.product.inWishlist}}
+          <svg class="profile__product--heading-icon">
+            <use href="/public/images/symbols.svg#icon-heart"></use>
+          </svg>
+          {{else}}
+          <svg class="profile__product--heading-icon">
+            <use href="/public/images/symbols.svg#icon-heart-empty"></use>
+          </svg>
+          {{/if}}
+        </span>
+        {{ page.product.title }}
+      </h2>
+      <img src="/public/images/querformat.png" alt="Product Picture" class="profile__product--img">
+    </div>
+
+    <div class="profile__description">
+      <p>{{ page.productDetail.numDeals }} {{page.lang.detail.txt_deals}}: {{formatCurrency request.path.locale page.productDetail.minPrice}} - {{formatCurrency request.path.locale page.productDetail.maxPrice}}</p>
+      <p>
+        {{ page.productDetail.numRatings }} {{ page.lang.detail.txt_rating }}: 
+        <span class="profile__description--rating-stars">
+          <!-- Schleife zur Auswertung des generierten Bool-Arrays -->
+          {{#each (generateAverageStars page.ratings)}}
+            {{#if this}}
+              ★
+            {{else}}
+              ☆
+            {{/if}}
+          {{/each}}
+        </span>
+      </p>
+      <p> {{page.product.description}} </p>
+    </div>
+  </section>
+
+  <section class="deals">
+    <h2 class="deals__heading"> {{page.lang.detail.txt_top_deals}} </h2>
+    <dl>
+      {{#each page.deals}}
+      <div class="deals__shop">
+      <dt class="deals__shop--title"> {{this.shop}} </dt>
+      <dd class="deals__shop--price"> {{formatCurrency ../request.path.locale this.price}} </dd>
+      </div>
+      {{/each}}
+    </dl>
+  </section>
+
+  <section class="rating">
+    <h2 class="rating__heading"> {{page.lang.detail.txt_user_ratings}} </h2>
+
+    <input type="checkbox" class="checkbox" />
+    <div class="rating__form-container">
+      <form action="/api/save" class="rating__form" method="POST">
+        <label for="rating-value" class="rating__form--dropdown-label rating__form--label">
+          {{page.lang.detail.txt_ratingname}}
+        </label>
+        <div class="rating__form--your-rating">
+          <select class="rating__form--dropdown" name="rating_value" id="rating-value">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5" selected="selected">5</option>
+          </select>
+          <input type="submit" value="{{ page.lang.detail.txt_submit }}" class="rating__form--submit">
+        </div>
+        
+        <label for="rating-author" class="rating__form--label">{{page.lang.detail.txt_textboxppomp_author}}</label>
+        <input 
+          type="text" 
+          name="rating_author" 
+          id="rating-author"
+          value="{{session.rating_author}}"
+          placeholder="{{page.lang.detail.txt_authorfield}}" 
+          class="rating__form--author" 
+          required>
+        <label for="rating-text" class="rating__form--label">{{page.lang.detail.txt_textboxppomp_rating}}</label>
+        <textarea id="rating-text" 
+          class="rating__form--text" 
+          placeholder="{{page.lang.detail.txt_description}}" 
+          name="rating_text"
+          required></textarea>
+      </form>
+    </div>
+    <svg class="rating__icon">
+      <use href="/public/images/symbols.svg#icon-plus"></use>
+    </svg>
+    <p class="rating__create-msg">{{page.lang.detail.txt_create_rating_info}}</p>
+
+    {{#each page.ratings}}
+    <div class="rating__post">
+    <span class="fontStars">
+        <!-- Schleife zur Auswertung des generierten Bool-Arrays -->
+        {{#each (generateStars this.rating)}}
+          {{#if this}}
+            ★
+          {{else}}
+            ☆
+          {{/if}}
+        {{/each}}
+      </span>
+
+      <p class="rating__post--author"> {{this.author}} {{../page.lang.detail.txt_user_ratings_filler}}: </p>
+      <p class="rating__post--text"> {{this.text}} </p>
+    </div>
+    {{/each}}
+  </section>
+</main>

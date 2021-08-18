@@ -1,0 +1,49 @@
+---
+{
+    
+}
+---
+
+
+
+{{#unless page.products}}
+<div class="table--empty">
+    <h4 class="table--empty-msg">{{page.lang.wishlist.txt_empty_Table}}</h4>
+</div>
+{{/unless}}
+
+
+{{#if page.products}}
+<table class="table__wishlist">
+    <tr>
+        <th></th>
+        {{#each page.products}}
+        <td class="table__images" style="background-image: url(/public/images/{{this.photo.portrait}});"></td>
+        {{/each}}
+    </tr>
+    <tr>
+        <th>{{page.lang.wishlist.txt_table_productname}}</th>
+        {{#each page.products}}
+        <td>{{this.title}}</td>
+        {{/each}}
+    </tr>
+    <tr>
+        <th>{{page.lang.wishlist.txt_table_descr}}</th>
+        {{#each page.products}}
+        <td>{{this.short}}</td>
+        {{/each}}
+    </tr>
+    <tr>
+        <th>{{page.lang.wishlist.txt_table_categorie}}</th>
+        {{#each page.products}}
+        <td>{{this.category}}</td>
+        {{/each}}
+    </tr>
+    <tr>
+        <th class="table__price-header"><p>{{page.lang.wishlist.txt_table_minPrice}}</p> <input type="submit" id="price-btn" value="{{page.lang.wishlist.txt_btn}}"></th>
+        {{#each page.products}}
+        <td class="table__price" data-price="{{this.minPrice}}">{{formatCurrency ../session.locale this.minPrice}}</td>
+        {{/each}}
+    </tr>
+</table>
+{{/if}}

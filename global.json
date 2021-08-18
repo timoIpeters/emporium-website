@@ -1,0 +1,23 @@
+{
+    "informations": {
+        "name": "Emporium",
+        "slogan": "Der Preisvergleich",
+        "nameAdditions": "© 2021",
+        "date": "Wedel, den 14.4.2021 um 11:00 Uhr",
+        "tel": "040 18947837",
+        "mail": "emporium@mein.gmx",
+        "owner": "Max Mustermann",
+        "legalForm": "GMbH",
+        "address": "Terrarium",
+        "vat": "§27 a",
+        "vatAct": "DE384837653",
+        "liabilities": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, iste. Asperiores vero porro libero? Sunt porro possimus earum tenetur facilis.",
+        "copyright": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, iste. Asperiores vero porro libero? Sunt porro possimus earum tenetur facilis.",
+        "register": "Handelsregister"
+    },
+    "categories": [
+        "Kategorie A",
+        "Kategorie B",
+        "Kategorie C"
+    ]
+}

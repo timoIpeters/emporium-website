@@ -1,0 +1,200 @@
+[
+    {
+        "product-id": 0,
+        "rating": 5,
+        "author": "Michael Müller",
+        "text": "Alles Top, wunderbares Produkt. Eine klare 4 von 5."
+    },
+    {
+        "product-id": 0,
+        "rating": 4,
+        "author": "Tina Meier",
+        "text": "Bis auf den Versand, alles gut."
+    },
+    {
+        "product-id": 0,
+        "rating": 2,
+        "author": "Kim Jung",
+        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+    },
+    {
+        "product-id": 1,
+        "rating": 3,
+        "author": "Person",
+        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+    },
+    {
+        "product-id": 2,
+        "rating": 3,
+        "author": "Person",
+        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+    },
+    {
+        "product-id": 3,
+        "rating": 3,
+        "author": "Person",
+        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+    },
+    {
+        "product-id": 4,
+        "rating": 3,
+        "author": "Person",
+        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+    },
+    {
+        "product-id": 5,
+        "rating": 3,
+        "author": "Person",
+        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+    },
+    {
+        "product-id": 6,
+        "rating": 3,
+        "author": "Person",
+        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+    },
+    {
+        "product-id": 7,
+        "rating": 3,
+        "author": "Person",
+        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+    },
+    {
+        "product-id": 8,
+        "rating": 3,
+        "author": "Person",
+        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+    },
+    {
+        "product-id": 9,
+        "rating": 3,
+        "author": "Person",
+        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+    },
+    {
+        "product-id": 10,
+        "rating": 3,
+        "author": "Person",
+        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+    },
+    {
+        "product-id": 11,
+        "rating": 3,
+        "author": "Person",
+        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+    },
+    {
+        "product-id": 12,
+        "rating": 3,
+        "author": "Person",
+        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+    },
+    {
+        "product-id": 13,
+        "rating": 3,
+        "author": "Person",
+        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+    },
+    {
+        "product-id": 14,
+        "rating": 3,
+        "author": "Person",
+        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+    },
+    {
+        "product-id": 15,
+        "rating": 3,
+        "author": "Person",
+        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+    },
+    {
+        "product-id": 16,
+        "rating": 3,
+        "author": "Person",
+        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+    },
+    {
+        "product-id": 17,
+        "rating": 3,
+        "author": "Person",
+        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+    },
+    {
+        "product-id": 18,
+        "rating": 3,
+        "author": "Person",
+        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+    },
+    {
+        "product-id": 19,
+        "rating": 3,
+        "author": "Person",
+        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+    },
+    {
+        "product-id": 20,
+        "rating": 3,
+        "author": "Person",
+        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+    },
+    {
+        "product-id": 21,
+        "rating": 3,
+        "author": "Person",
+        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+    },
+    {
+        "product-id": 22,
+        "rating": 3,
+        "author": "Person",
+        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+    },
+    {
+        "product-id": 23,
+        "rating": 3,
+        "author": "Person",
+        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+    },
+    {
+        "product-id": 24,
+        "rating": 3,
+        "author": "Person",
+        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+    },
+    {
+        "product-id": 25,
+        "rating": 3,
+        "author": "Person",
+        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+    },
+    {
+        "product-id": 26,
+        "rating": 3,
+        "author": "Person",
+        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+    },
+    {
+        "product-id": 27,
+        "rating": 3,
+        "author": "Person",
+        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+    },
+    {
+        "product-id": 28,
+        "rating": 3,
+        "author": "Person",
+        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+    },
+    {
+        "product-id": 29,
+        "rating": 3,
+        "author": "Person",
+        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."
+    },
+    {
+        "product-id": 0,
+        "rating": 5,
+        "author": "Lukas",
+        "text": "Das ist ein nices Produkt"
+    }
+]

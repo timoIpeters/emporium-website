@@ -1,0 +1,11 @@
+---
+{
+    "path": "imprint"
+}
+---
+
+<footer class="footer">
+    <p class="footer__name">{{global.informations.name}} {{global.informations.nameAdditions}}</p>
+    <p><a href="/{{request.path.locale}}/{{page.path}}" class="footer__imprintLink"> {{page.lang.txt_imprint}} </a></p>
+    <p class="footer__date" data-locale="{{request.path.locale}}">{{localeFormatDate request.path.locale}}</p>
+</footer>

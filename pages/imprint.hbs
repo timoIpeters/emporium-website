@@ -1,0 +1,43 @@
+/---
+{
+"title": "Impressum",
+"template": "html",
+"style": "imprint.css",
+"scripts": []
+}
+---
+<main class="content imprint">
+  <section class="imprint__left">
+    <h2 class="imprint__left--title"> {{ page.title }} </h2>
+  </section>
+  <section class="imprint__right">
+    {{!-- Adresse --}}
+    <h3> {{page.lang.imprint.txt_address}} </h3>
+    <p> {{global.informations.name}} {{global.informations.legalForm}} </p>
+    <p> {{plobal.informations.address}} </p>
+    
+    {{!-- Kontakt --}}
+    <h3> {{ page.lang.imprint.txt_contact }} </h3>
+    <p> {{ page.lang.imprint.txt_owner }}: {{global.informations.owner}} </p>
+    <p> {{ page.lang.imprint.txt_tel}}: {{global.informations.tel}} </p>
+    <p> {{ page.lang.imprint.txt_mail }}: <a
+        href="mailto:{{global.informations.mail}}" class="imprint__right--mailto">{{global.informations.mail}}</a></p>
+
+    {{!-- Handelsregister --}}
+    <h3> {{page.lang.imprint.txt_register_Entry}} </h3>
+    <p> {{global.informations.register}} </p>
+
+    {{!-- Umsatzsteuer --}}
+    <h3> {{ page.lang.imprint.txt_identification }} </h3>
+    <p> {{ page.lang.imprint.txt_vat }}: {{global.informations.vat}} </p>
+    <p> {{ page.lang.imprint.txt_vat_act }}: {{ global.informations.vatAct }} </p>
+
+    {{!-- Haftung --}}
+    <h3>{{ page.lang.imprint.txt_liabilities }} </h3>
+    <p> {{ global.informations.liabilities }} </p>
+
+    {{!-- Copyright --}}
+    <h3> {{ page.lang.imprint.txt_copyright }} </h3>
+    <p> {{ global.informations.copyright }} </p>
+  </section>
+</main>

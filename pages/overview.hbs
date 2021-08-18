@@ -1,0 +1,82 @@
+---
+{
+"title": "Übersicht",
+"template": "html",
+"style": "overview.css",
+"path": "/public/images/",
+"path_detail": "detail",
+"scripts": ["wishlist.js"]
+}
+---
+<main class="content">
+  <section class="overview">
+    <h2 class="overview__title page__title">{{ page.title }}</h2>
+
+    <aside class="filter">
+        <span class="filter__text">{{page.lang.overview.txt_filter}}</span>
+        {{!-- klickbarer filter mittels checkbox --}}
+        <input type="checkbox" class="checkbox" />
+        <div class="filter__container">
+          
+          <form action="{{request.originalUrl}}" method="GET" class="filter__price-range">
+            <label class="filter__price-range--label">{{page.lang.overview.txt_filter_price-range}}</label>
+            <input 
+              type="number" 
+              name="minPrice" 
+              placeholder="minPrice" 
+              value="{{request.get.minPrice}}"
+              id="minPrice" 
+              class="filter__price-range--input">
+            <input 
+              type="number" 
+              name="maxPrice" 
+              placeholder="maxPrice" 
+              value="{{request.get.maxPrice}}"
+              id="maxPrice" 
+              class="filter__price-range--input">
+              {{#if request.get.search}}
+              <input type="hidden" name="search" value="{{request.get.search}}">
+              {{/if}}
+            <input type="submit" class="filter__price-range--apply" value="{{page.lang.overview.txt_submit_filter}}">
+          </form>
+        </div>
+        <svg class="filter__icon">
+          <use href="/public/images/symbols.svg#icon-circle-right"></use>
+        </svg>
+    </aside>
+
+    <div class="product__list">
+      {{!-- Meldung, dass kein Produkt gefunden wurde --}}
+      {{#unless page.products}}
+        <h4 class="product__list--empty">{{page.lang.overview.txt_no_product_found}}</h4>
+      {{/unless}}
+      {{#each page.products}}
+      <div class="product-item">
+        <a href="/{{../request.path.locale}}/{{../page.path_detail}}/{{this.id}}" class="product-item__overview">
+          <img class="product-item__image" src="/public/images/{{this.photo.portrait}}" alt="Image">
+          <div class="product-item__info info__top">
+            <p class="product-item__info--titel"> {{this.title}} </p>
+            <p class="product-item__info--desc"> {{this.short}} </p>
+          </div>
+          <div class="product-item__info info__bottom">
+            <p class="product-item__info--price">
+              {{../page.lang.overview.txt_from}}: {{formatCurrency ../request.path.locale this.minPrice}}
+            </p>
+          </div>
+        </a>
+        <div class="add-to-wishlist" data-id="{{this.id}}">
+          {{#if this.inWishlist}}
+          <svg class="product-item__add-to-wishlist--icon">
+            <use href="/public/images/symbols.svg#icon-heart"></use>
+          </svg>
+          {{else}}
+          <svg class="product-item__add-to-wishlist--icon">
+            <use href="/public/images/symbols.svg#icon-heart-empty"></use>
+          </svg>
+          {{/if}}
+        </div>
+      </div>
+      {{/each}}
+    </div>
+  </section>
+</main>

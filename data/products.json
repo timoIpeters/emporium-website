@@ -1,0 +1,332 @@
+[
+    {
+        "id": 0,
+        "title": "Beispielartikel A1",
+        "short": "Eine kurze Beschreibung",
+        "category": "Kategorie A",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut non dignissimos perferendis eveniet dolorum architecto repudiandae quo cum saepe expedita cupiditate nobis quaerat error itaque, delectus reprehenderit veniam perspiciatis ullam!",
+        "photo": {
+            "portrait": "hochformat.png",
+            "landscape": "querformat.png"
+        }
+    },
+    {
+        "id": 1,
+        "title": "Beispielartikel A2",
+        "short": "Eine kurze Beschreibung",
+        "category": "Kategorie A",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut non dignissimos perferendis eveniet dolorum architecto repudiandae quo cum saepe expedita cupiditate nobis quaerat error itaque, delectus reprehenderit veniam perspiciatis ullam!",
+        "photo": {
+            "portrait": "hochformat.png",
+            "landscape": "querformat.png"
+        }
+    },
+    {
+        "id": 2,
+        "title": "Beispielartikel A3",
+        "short": "Eine kurze Beschreibung",
+        "category": "Kategorie A",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut non dignissimos perferendis eveniet dolorum architecto repudiandae quo cum saepe expedita cupiditate nobis quaerat error itaque, delectus reprehenderit veniam perspiciatis ullam!",
+        "photo": {
+            "portrait": "hochformat.png",
+            "landscape": "querformat.png"
+        }
+    },
+    {
+        "id": 3,
+        "title": "Beispielartikel A4",
+        "short": "Eine kurze Beschreibung",
+        "category": "Kategorie A",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut non dignissimos perferendis eveniet dolorum architecto repudiandae quo cum saepe expedita cupiditate nobis quaerat error itaque, delectus reprehenderit veniam perspiciatis ullam!",
+        "photo": {
+            "portrait": "hochformat.png",
+            "landscape": "querformat.png"
+        }
+    },
+    {
+        "id": 4,
+        "title": "Beispielartikel A5",
+        "short": "Eine kurze Beschreibung",
+        "category": "Kategorie A",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut non dignissimos perferendis eveniet dolorum architecto repudiandae quo cum saepe expedita cupiditate nobis quaerat error itaque, delectus reprehenderit veniam perspiciatis ullam!",
+        "photo": {
+            "portrait": "hochformat.png",
+            "landscape": "querformat.png"
+        }
+    },
+    {
+        "id": 5,
+        "title": "Beispielartikel A6",
+        "short": "Eine kurze Beschreibung",
+        "category": "Kategorie A",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut non dignissimos perferendis eveniet dolorum architecto repudiandae quo cum saepe expedita cupiditate nobis quaerat error itaque, delectus reprehenderit veniam perspiciatis ullam!",
+        "photo": {
+            "portrait": "hochformat.png",
+            "landscape": "querformat.png"
+        }
+    },
+    {
+        "id": 6,
+        "title": "Beispielartikel A7",
+        "short": "Eine kurze Beschreibung",
+        "category": "Kategorie A",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut non dignissimos perferendis eveniet dolorum architecto repudiandae quo cum saepe expedita cupiditate nobis quaerat error itaque, delectus reprehenderit veniam perspiciatis ullam!",
+        "photo": {
+            "portrait": "hochformat.png",
+            "landscape": "querformat.png"
+        }
+    },
+    {
+        "id": 7,
+        "title": "Beispielartikel A8",
+        "short": "Eine kurze Beschreibung",
+        "category": "Kategorie A",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut non dignissimos perferendis eveniet dolorum architecto repudiandae quo cum saepe expedita cupiditate nobis quaerat error itaque, delectus reprehenderit veniam perspiciatis ullam!",
+        "photo": {
+            "portrait": "hochformat.png",
+            "landscape": "querformat.png"
+        }
+    },
+    {
+        "id": 8,
+        "title": "Beispielartikel A9",
+        "short": "Eine kurze Beschreibung",
+        "category": "Kategorie A",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut non dignissimos perferendis eveniet dolorum architecto repudiandae quo cum saepe expedita cupiditate nobis quaerat error itaque, delectus reprehenderit veniam perspiciatis ullam!",
+        "photo": {
+            "portrait": "hochformat.png",
+            "landscape": "querformat.png"
+        }
+    },
+    {
+        "id": 9,
+        "title": "Beispielartikel A10",
+        "short": "Eine kurze Beschreibung",
+        "category": "Kategorie A",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut non dignissimos perferendis eveniet dolorum architecto repudiandae quo cum saepe expedita cupiditate nobis quaerat error itaque, delectus reprehenderit veniam perspiciatis ullam!",
+        "photo": {
+            "portrait": "hochformat.png",
+            "landscape": "querformat.png"
+        }
+    },
+    {
+        "id": 10,
+        "title": "Beispielartikel B1",
+        "short": "Eine kurze Beschreibung",
+        "category": "Kategorie B",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut non dignissimos perferendis eveniet dolorum architecto repudiandae quo cum saepe expedita cupiditate nobis quaerat error itaque, delectus reprehenderit veniam perspiciatis ullam!",
+        "photo": {
+            "portrait": "hochformat.png",
+            "landscape": "querformat.png"
+        }
+    },
+    {
+        "id": 11,
+        "title": "Beispielartikel B2",
+        "short": "Eine kurze Beschreibung",
+        "category": "Kategorie B",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut non dignissimos perferendis eveniet dolorum architecto repudiandae quo cum saepe expedita cupiditate nobis quaerat error itaque, delectus reprehenderit veniam perspiciatis ullam!",
+        "photo": {
+            "portrait": "hochformat.png",
+            "landscape": "querformat.png"
+        }
+    },
+    {
+        "id": 12,
+        "title": "Beispielartikel B3",
+        "short": "Eine kurze Beschreibung",
+        "category": "Kategorie B",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut non dignissimos perferendis eveniet dolorum architecto repudiandae quo cum saepe expedita cupiditate nobis quaerat error itaque, delectus reprehenderit veniam perspiciatis ullam!",
+        "photo": {
+            "portrait": "hochformat.png",
+            "landscape": "querformat.png"
+        }
+    },
+    {
+        "id": 13,
+        "title": "Beispielartikel B4",
+        "short": "Eine kurze Beschreibung",
+        "category": "Kategorie B",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut non dignissimos perferendis eveniet dolorum architecto repudiandae quo cum saepe expedita cupiditate nobis quaerat error itaque, delectus reprehenderit veniam perspiciatis ullam!",
+        "photo": {
+            "portrait": "hochformat.png",
+            "landscape": "querformat.png"
+        }
+    },
+    {
+        "id": 14,
+        "title": "Beispielartikel B5",
+        "short": "Eine kurze Beschreibung",
+        "category": "Kategorie B",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut non dignissimos perferendis eveniet dolorum architecto repudiandae quo cum saepe expedita cupiditate nobis quaerat error itaque, delectus reprehenderit veniam perspiciatis ullam!",
+        "photo": {
+            "portrait": "hochformat.png",
+            "landscape": "querformat.png"
+        }
+    },
+    {
+        "id": 15,
+        "title": "Beispielartikel B6",
+        "short": "Eine kurze Beschreibung",
+        "category": "Kategorie B",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut non dignissimos perferendis eveniet dolorum architecto repudiandae quo cum saepe expedita cupiditate nobis quaerat error itaque, delectus reprehenderit veniam perspiciatis ullam!",
+        "photo": {
+            "portrait": "hochformat.png",
+            "landscape": "querformat.png"
+        }
+    },
+    {
+        "id": 16,
+        "title": "Beispielartikel B7",
+        "short": "Eine kurze Beschreibung",
+        "category": "Kategorie B",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut non dignissimos perferendis eveniet dolorum architecto repudiandae quo cum saepe expedita cupiditate nobis quaerat error itaque, delectus reprehenderit veniam perspiciatis ullam!",
+        "photo": {
+            "portrait": "hochformat.png",
+            "landscape": "querformat.png"
+        }
+    },
+    {
+        "id": 17,
+        "title": "Beispielartikel B8",
+        "short": "Eine kurze Beschreibung",
+        "category": "Kategorie B",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut non dignissimos perferendis eveniet dolorum architecto repudiandae quo cum saepe expedita cupiditate nobis quaerat error itaque, delectus reprehenderit veniam perspiciatis ullam!",
+        "photo": {
+            "portrait": "hochformat.png",
+            "landscape": "querformat.png"
+        }
+    },
+    {
+        "id": 18,
+        "title": "Beispielartikel B9",
+        "short": "Eine kurze Beschreibung",
+        "category": "Kategorie B",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut non dignissimos perferendis eveniet dolorum architecto repudiandae quo cum saepe expedita cupiditate nobis quaerat error itaque, delectus reprehenderit veniam perspiciatis ullam!",
+        "photo": {
+            "portrait": "hochformat.png",
+            "landscape": "querformat.png"
+        }
+    },
+    {
+        "id": 19,
+        "title": "Beispielartikel B10",
+        "short": "Eine kurze Beschreibung",
+        "category": "Kategorie B",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut non dignissimos perferendis eveniet dolorum architecto repudiandae quo cum saepe expedita cupiditate nobis quaerat error itaque, delectus reprehenderit veniam perspiciatis ullam!",
+        "photo": {
+            "portrait": "hochformat.png",
+            "landscape": "querformat.png"
+        }
+    },
+    {
+        "id": 20,
+        "title": "Beispielartikel C1",
+        "short": "Eine kurze Beschreibung",
+        "category": "Kategorie C",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut non dignissimos perferendis eveniet dolorum architecto repudiandae quo cum saepe expedita cupiditate nobis quaerat error itaque, delectus reprehenderit veniam perspiciatis ullam!",
+        "photo": {
+            "portrait": "hochformat.png",
+            "landscape": "querformat.png"
+        }
+    },
+    {
+        "id": 21,
+        "title": "Beispielartikel C2",
+        "short": "Eine kurze Beschreibung",
+        "category": "Kategorie C",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut non dignissimos perferendis eveniet dolorum architecto repudiandae quo cum saepe expedita cupiditate nobis quaerat error itaque, delectus reprehenderit veniam perspiciatis ullam!",
+        "photo": {
+            "portrait": "hochformat.png",
+            "landscape": "querformat.png"
+        }
+    },
+    {
+        "id": 22,
+        "title": "Beispielartikel C3",
+        "short": "Eine kurze Beschreibung",
+        "category": "Kategorie C",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut non dignissimos perferendis eveniet dolorum architecto repudiandae quo cum saepe expedita cupiditate nobis quaerat error itaque, delectus reprehenderit veniam perspiciatis ullam!",
+        "photo": {
+            "portrait": "hochformat.png",
+            "landscape": "querformat.png"
+        }
+    },
+    {
+        "id": 23,
+        "title": "Beispielartikel C4",
+        "short": "Eine kurze Beschreibung",
+        "category": "Kategorie C",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut non dignissimos perferendis eveniet dolorum architecto repudiandae quo cum saepe expedita cupiditate nobis quaerat error itaque, delectus reprehenderit veniam perspiciatis ullam!",
+        "photo": {
+            "portrait": "hochformat.png",
+            "landscape": "querformat.png"
+        }
+    },
+    {
+        "id": 24,
+        "title": "Beispielartikel C5",
+        "short": "Eine kurze Beschreibung",
+        "category": "Kategorie C",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut non dignissimos perferendis eveniet dolorum architecto repudiandae quo cum saepe expedita cupiditate nobis quaerat error itaque, delectus reprehenderit veniam perspiciatis ullam!",
+        "photo": {
+            "portrait": "hochformat.png",
+            "landscape": "querformat.png"
+        }
+    },
+    {
+        "id": 25,
+        "title": "Beispielartikel C6",
+        "short": "Eine kurze Beschreibung",
+        "category": "Kategorie C",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut non dignissimos perferendis eveniet dolorum architecto repudiandae quo cum saepe expedita cupiditate nobis quaerat error itaque, delectus reprehenderit veniam perspiciatis ullam!",
+        "photo": {
+            "portrait": "hochformat.png",
+            "landscape": "querformat.png"
+        }
+    },
+    {
+        "id": 26,
+        "title": "Beispielartikel C7",
+        "short": "Eine kurze Beschreibung",
+        "category": "Kategorie C",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut non dignissimos perferendis eveniet dolorum architecto repudiandae quo cum saepe expedita cupiditate nobis quaerat error itaque, delectus reprehenderit veniam perspiciatis ullam!",
+        "photo": {
+            "portrait": "hochformat.png",
+            "landscape": "querformat.png"
+        }
+    },
+    {
+        "id": 27,
+        "title": "Beispielartikel C8",
+        "short": "Eine kurze Beschreibung",
+        "category": "Kategorie C",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut non dignissimos perferendis eveniet dolorum architecto repudiandae quo cum saepe expedita cupiditate nobis quaerat error itaque, delectus reprehenderit veniam perspiciatis ullam!",
+        "photo": {
+            "portrait": "hochformat.png",
+            "landscape": "querformat.png"
+        }
+    },
+    {
+        "id": 28,
+        "title": "Beispielartikel C9",
+        "short": "Eine kurze Beschreibung",
+        "category": "Kategorie C",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut non dignissimos perferendis eveniet dolorum architecto repudiandae quo cum saepe expedita cupiditate nobis quaerat error itaque, delectus reprehenderit veniam perspiciatis ullam!",
+        "photo": {
+            "portrait": "hochformat.png",
+            "landscape": "querformat.png"
+        }
+    },
+    {
+        "id": 29,
+        "title": "Beispielartikel C10",
+        "short": "Eine kurze Beschreibung",
+        "category": "Kategorie C",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut non dignissimos perferendis eveniet dolorum architecto repudiandae quo cum saepe expedita cupiditate nobis quaerat error itaque, delectus reprehenderit veniam perspiciatis ullam!",
+        "photo": {
+            "portrait": "hochformat.png",
+            "landscape": "querformat.png"
+        }
+    }
+]
